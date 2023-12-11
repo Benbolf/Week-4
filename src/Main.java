@@ -1,17 +1,9 @@
 
+    
+		
+		//Question 1// 
          int[] ages = {3, 9, 23, 64, 2, 8, 28,93};
-		
-		//Question 1//
-         
 		int lengthOfArr = ages.length;
-		int difference = Math.abs(ages[lengthOfArr - lengthOfArr] - ages[lengthOfArr - 1]);
-		
-		System.out.println("Average " + difference);
-		
-		int[] newAges = new int[ages.length];
-		
-		System.arraycopy(ages,  0, newAges, 0, ages.length);
-		
 		lengthOfArr = newAges.length;
 		newAges[lengthOfArr - 1] = 100;
 		difference = Math.abs(newAges[lengthOfArr - lengthOfArr] - newAges[lengthOfArr - 1]);
@@ -99,7 +91,7 @@
 		
 		
 	     int milesTillEmpty = 20;
-	     when  milesTillempty < 20 ;
+	     when  milesTillempty =< (20);
 	     System.out.println( "Get more gas now.");
 	     
 		
